@@ -17,10 +17,10 @@ An AI-powered full-stack web application that helps users track their daily calo
 
 ## 🔧 Tech Stack
 
-| Frontend   | Backend    | Database | AI Service         |
-|------------|------------|----------|--------------------|
-| React      | Node.js    | MongoDB  | Gemini (Google GenAI) |
-| TailwindCSS| Express.js | Mongoose |                    |
+| Frontend     | Backend    | Database | AI Service         |
+|--------------|------------|----------|--------------------|
+| React + MUI  | Node.js    | MongoDB  | Gemini (Google GenAI) |
+| Material UI  | Express.js | Mongoose |                    |
 
 ---
 
@@ -31,4 +31,18 @@ An AI-powered full-stack web application that helps users track their daily calo
 git clone https://github.com/Aayush03107/Ai-Calorie-Tracker.git
 cd Ai-Calorie-Tracker
 
-
+## 📂 Project Structure
+ai-calorie-tracker/
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   └── index.html
+└── README.md
